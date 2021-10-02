@@ -1,0 +1,92 @@
+[debug] [2021-10-01T22:18:55.690Z] ----------------------------------------------------------------------
+[debug] [2021-10-01T22:18:55.692Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js -P victory-clothes init
+[debug] [2021-10-01T22:18:55.692Z] CLI Version:   9.19.0
+[debug] [2021-10-01T22:18:55.692Z] Platform:      win32
+[debug] [2021-10-01T22:18:55.693Z] Node Version:  v12.13.0
+[debug] [2021-10-01T22:18:55.694Z] Time:          Fri Oct 01 2021 23:18:55 GMT+0100 (GMT+01:00)
+[debug] [2021-10-01T22:18:55.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-01T22:18:55.704Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-01T22:18:55.705Z] > authorizing via signed-in user (riadhchibani144@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Riadh\Desktop\prjAymen\victoryClothes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-10-01T22:19:01.100Z] > refreshing access token with scopes: []
+[debug] [2021-10-01T22:19:01.101Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-01T22:19:01.467Z] <<< HTTP RESPONSE 400 {"date":"Fri, 01 Oct 2021 22:19:01 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-01T22:19:01.469Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes [none]
+[debug] [2021-10-01T22:19:01.907Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes 401
+[debug] [2021-10-01T22:19:01.908Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2021-10-01T22:19:01.909Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2021-10-01T22:19:02.243Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:84:27)
+    at async init (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project victory-clothes. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-10-01T22:19:22.364Z] ----------------------------------------------------------------------
+[debug] [2021-10-01T22:19:22.366Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js -P victory-clothes init
+[debug] [2021-10-01T22:19:22.367Z] CLI Version:   9.19.0
+[debug] [2021-10-01T22:19:22.367Z] Platform:      win32
+[debug] [2021-10-01T22:19:22.367Z] Node Version:  v12.13.0
+[debug] [2021-10-01T22:19:22.369Z] Time:          Fri Oct 01 2021 23:19:22 GMT+0100 (GMT+01:00)
+[debug] [2021-10-01T22:19:22.369Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-01T22:19:22.379Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-01T22:19:22.379Z] > authorizing via signed-in user (riadhchibani144@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Riadh\Desktop\prjAymen\victoryClothes
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-10-01T22:19:38.006Z] > refreshing access token with scopes: []
+[debug] [2021-10-01T22:19:38.007Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-01T22:19:38.319Z] <<< HTTP RESPONSE 400 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 01 Oct 2021 22:19:38 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-01T22:19:38.321Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes [none]
+[debug] [2021-10-01T22:19:38.623Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes 401
+[debug] [2021-10-01T22:19:38.623Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/victory-clothes {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2021-10-01T22:19:38.624Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2021-10-01T22:19:38.893Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at module.exports (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:84:27)
+    at async init (C:\Users\Riadh\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project victory-clothes. Please make sure the project exists and your account has permission to access it.
